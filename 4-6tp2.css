@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "EB Garamond", serif;
+}
+.barranav {
+  color: black;
+  background-color: pink;
+  width: 100vw;
+  height: 100px;
+}
+.barranav:hover {
+  background-color: rgb(0, 0, 0);
+  transition: 1s;
+}
+.divnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.imgnav {
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+}
+.itemnav {
+  text-decoration: none;
+
+  color: white;
+  font-size: large;
+}
+
+.imgportada {
+  margin: 0;
+}
+.img1 {
+  height: 550px;
+  width: 420px;
+  object-fit: cover;
+}
+
+.img2 {
+  height: 550px;
+  width: 500px;
+  object-fit: cover;
+}
+.img3 {
+  height: 550px;
+  width: 420px;
+  object-fit: cover;
+}
+.padretarjeta {
+  display: flex;
+  justify-content: space-around;
+}
+.TITULOTARJETA {
+  background-color: pink;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  height: 20px;
+  padding: 20px;
+}
+.TITULOTARJETA:hover {
+  transition: 1s;
+}
+.tarjeta {
+  border-radius: 15px;
+  padding: 40px;
+  width: 300px;
+  height: 350px;
+  border: solid rgb(253, 217, 223);
+}
+.imgtarjeta {
+  height: 150px;
+  width: 170px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.tarjeta h4 {
+  text-align: center;
+  font-family: "EB Garamond", serif;
+  margin: 5px;
+}
+.btntarjeta {
+  color: black;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px 15px;
+
+  border-radius: 20px;
+  margin-bottom: 10px;
+  border: 2px solid rgb(235, 235, 235);
+}
+.btntarjeta:hover {
+  border: 2px solid rgb(0, 0, 0);
+  transition: 1s;
+}
+.contenedorsn {
+  width: 100%;
+  padding: 78px 0px;
+  background-color: pink;
+}
+.imgsn {
+  height: auto;
+  width: 400px;
+}
+.textosn {
+  width: 550px;
+  justify-content: center;
+}
+.divsn {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.textosn2 {
+  text-align: center;
+}
+.btnsn {
+  color: black;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  border: 2px solid rgb(235, 235, 235);
+}
+.btnsn:hover {
+  border: 2px solid black;
+  transition: 1s;
+}
+.formularioinp {
+  padding: 50px 55px;
+  box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+  border-radius: 20px;
+  text-align: center;
+  width: 300px;
+}
+.inpgroup {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.h2formulario {
+  color: rgb(0, 0, 0);
+  font-family: "EB Garamond", serif;
+  font-size: 35px;
+}
+.labelform {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.inptextarea {
+  padding: 17px 25px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  background-color: lightpink;
+  border: 2px solid rgb(245, 245, 245);
+  font-family: "EB Garamond", serif;
+  outline: none;
+}
+.inptextarea:hover {
+  border: 2px solid black;
+  transition: 1s;
+}
+input::placeholder,
+textarea::placeholder {
+  color: rgb(255, 255, 255);
+}
+
+.btnformulario {
+  padding: 17px 25px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  background-color: lightpink;
+  border: 2px solid rgb(245, 245, 245);
+  font-family: "EB Garamond", serif;
+  color: white;
+  outline: none;
+}
+.btnformulario:hover {
+  border: 2px solid black;
+  transition: 1s;
+}
+
+.poliypriv {
+  text-decoration: none;
+  font-family: "EB Garamond", serif;
+  color: black;
+}
+
+.buttons {
+  min-width: 700px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttons a {
+  text-decoration: none;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  list-style: none;
+}
